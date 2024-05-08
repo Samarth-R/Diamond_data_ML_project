@@ -1,1 +1,1 @@
-## End to End Machine learning project - Advertising data
+## End to End Machine learning project - Diamond Price Prediction
