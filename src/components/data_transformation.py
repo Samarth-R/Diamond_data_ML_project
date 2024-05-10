@@ -25,9 +25,6 @@ class DataTransformation:
 
     def get_data_transformer_obj(self, df, target_column):
         try:
-            # numerical_columns = ['carat', 'depth', 'table', 'x', 'y', 'z']
-            # categorical_columns = ['cut', 'color', 'clarity']
-
             numerical_columns, categorical_columns = get_num_cat_columns(df, target_column)
 
             num_pipeline = Pipeline(
